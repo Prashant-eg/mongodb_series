@@ -1,0 +1,5 @@
+db.stats()  // Show DB stats
+db.serverStatus()  // Server info
+db.products.countDocuments()  // Count documents
+db.products.renameCollection("items")  // Rename collection
+db.products.drop()  // Drop collection
